@@ -21,7 +21,7 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.wso2.am</groupId>
+    <groupId>org.kasung.test</groupId>
     <artifactId>am-parent</artifactId>
     <packaging>pom</packaging>
     <version>2.6.0-alpha2-SNAPSHOT</version>
@@ -57,9 +57,9 @@
     </modules>
 
     <scm>
-        <url>https://github.com/wso2/product-apim.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/product-apim.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/product-apim.git</connection>
+        <url>https://github.com/maheshika-repocreation-test/product-apim.git</url>
+        <developerConnection>scm:git:https://github.com/maheshika-repocreation-test/product-apim.git</developerConnection>
+        <connection>scm:git:https://github.com/maheshika-repocreation-test/product-apim.git</connection>
         <tag>HEAD</tag>
     </scm>
 
