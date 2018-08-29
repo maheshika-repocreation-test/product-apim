@@ -18,7 +18,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <artifactId>am-p2-profile-gen-parent</artifactId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -214,7 +214,7 @@
                                     org.wso2.carbon.mediation:org.wso2.carbon.mediators.server.feature:${carbon.mediation.version}
                                 </featureArtifactDef>
                    
-                                <featureArtifactDef>org.wso2.am:org.wso2.am.styles.feature:${apimserver.version}
+                                <featureArtifactDef>org.kasung.test.am:org.kasung.test.am.styles.feature:${apimserver.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.mediation:org.wso2.carbon.relay.feature:${carbon.mediation.version}
@@ -271,7 +271,7 @@
                                     org.wso2.carbon.apimgt:org.wso2.carbon.apimgt.feature:${carbon.apimgt.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.am:org.wso2.am.multitenancy.dashboard.ui.feature:${apimserver.version}
+                                    org.kasung.test.am:org.kasung.test.am.multitenancy.dashboard.ui.feature:${apimserver.version}
                                 </featureArtifactDef>
 
                                 <!-- Registry Features -->
@@ -928,12 +928,12 @@
                                     <version>${carbon.mediation.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 
                                 <feature>
-                                    <id>org.wso2.am.multitenancy.dashboard.ui.feature.group</id>
+                                    <id>org.kasung.test.am.multitenancy.dashboard.ui.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -1476,11 +1476,11 @@
                                     <version>${carbon.mediation.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.multitenancy.dashboard.ui.feature.group</id>
+                                    <id>org.kasung.test.am.multitenancy.dashboard.ui.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -1888,11 +1888,11 @@
                                     <version>${carbon.mediation.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.multitenancy.dashboard.ui.feature.group</id>
+                                    <id>org.kasung.test.am.multitenancy.dashboard.ui.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -2366,11 +2366,11 @@
                                     <version>${carbon.mediation.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.multitenancy.dashboard.ui.feature.group</id>
+                                    <id>org.kasung.test.am.multitenancy.dashboard.ui.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -2851,7 +2851,7 @@
                                     <version>${carbon.mediation.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -2859,7 +2859,7 @@
                                     <version>${carbon.identity-inbound-auth-openid.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.am.multitenancy.dashboard.ui.feature.group</id>
+                                    <id>org.kasung.test.am.multitenancy.dashboard.ui.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>
@@ -3309,7 +3309,7 @@
                                 </feature>
 
                                 <feature>
-                                    <id>org.wso2.am.styles.feature.group</id>
+                                    <id>org.kasung.test.am.styles.feature.group</id>
                                     <version>${apimserver.version}</version>
                                 </feature>
                                 <feature>

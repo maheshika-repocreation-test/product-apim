@@ -20,22 +20,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <artifactId>am-features</artifactId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>org.wso2.am.styles.feature</artifactId>
+    <artifactId>org.kasung.test.am.styles.feature</artifactId>
     <packaging>pom</packaging>
     <name>WSO2 API Manager - Styles Features</name>
     <url>http://www.wso2.org</url>
 
     <dependencies>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.styles</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.styles</artifactId>
         </dependency>
     </dependencies>
 
@@ -52,7 +52,7 @@
                             <goal>p2-feature-gen</goal>
                         </goals>
                         <configuration>
-                            <id>org.wso2.am.styles</id>
+                            <id>org.kasung.test.am.styles</id>
                             <propertiesFile>../etc/feature.properties</propertiesFile>
                             <adviceFile>
                                 <properties>
@@ -60,7 +60,7 @@
                                 </properties>
                             </adviceFile>
                             <bundles>
-                                <bundleDef>org.wso2.am:org.wso2.am.styles</bundleDef>
+                                <bundleDef>org.kasung.test.am:org.kasung.test.am.styles</bundleDef>
                             </bundles>
                             <importFeatures>
                                 <importFeatureDef>org.wso2.carbon.core.ui:${carbon.kernel.version}</importFeatureDef>

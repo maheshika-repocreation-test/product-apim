@@ -19,14 +19,14 @@ under the License.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>tests-common</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <name>WSO2 API Manager - Integration Common Test Module</name>
-    <artifactId>org.wso2.am.integration.common.test.utils</artifactId>
+    <artifactId>org.kasung.test.am.integration.common.test.utils</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -53,8 +53,8 @@ under the License.
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon.automation</groupId>

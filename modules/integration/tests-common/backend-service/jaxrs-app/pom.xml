@@ -17,14 +17,14 @@ under the License.
 
     <parent>
         <artifactId>test-artifacts</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <name>WSO2 API Manager - RestFul Backend Module for Integration Tests</name>
-    <artifactId>org.wso2.am.integration.backend.service</artifactId>
+    <artifactId>org.kasung.test.am.integration.backend.service</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

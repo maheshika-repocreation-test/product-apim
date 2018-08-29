@@ -20,14 +20,14 @@ under the License.
 
     <parent>
         <artifactId>tests-common</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <name>WSO2 API Manager - Integration Admin Clients Module</name>
-    <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+    <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>

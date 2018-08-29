@@ -22,14 +22,14 @@ under the License.
 
     <parent>
         <artifactId>integration</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.2.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <name>WSO2 API Manager - Integration UI Tests Module</name>
-    <artifactId>org.wso2.am.integration.ui.tests</artifactId>
+    <artifactId>org.kasung.test.am.integration.ui.tests</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -127,7 +127,7 @@ under the License.
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>org.wso2.am</groupId>
+                                    <groupId>org.kasung.test.am</groupId>
                                     <artifactId>wso2am</artifactId>
                                     <version>${project.version}</version>
                                     <type>zip</type>
@@ -256,28 +256,28 @@ under the License.
 
     <dependencies>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
             <version>${apimserver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.ui.pages</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.ui.pages</artifactId>
             <version>${apimserver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
             <version>${apimserver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.test.extensions</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.test.extensions</artifactId>
             <version>${apimserver.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.common.test.utils</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.common.test.utils</artifactId>
             <version>${apimserver.version}</version>
             <exclusions>
                 <exclusion>

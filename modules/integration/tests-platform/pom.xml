@@ -21,14 +21,14 @@ under the License.
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>integration</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.2.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <name>WSO2 API Manager - Cross Platform Test Module</name>
-    <artifactId>org.wso2.am.integration.platform.tests</artifactId>
+    <artifactId>org.kasung.test.am.integration.platform.tests</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -82,12 +82,12 @@ under the License.
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.integration.common.test.utils</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.integration.common.test.utils</artifactId>
         </dependency>
         <dependency>
             <groupId>org.json.wso2</groupId>

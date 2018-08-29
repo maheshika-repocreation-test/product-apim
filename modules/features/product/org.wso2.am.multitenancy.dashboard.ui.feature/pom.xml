@@ -2,21 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>am-features</artifactId>
-        <groupId>org.wso2.am</groupId>
+        <groupId>org.kasung.test.am</groupId>
         <version>2.6.0-alpha2-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>org.wso2.am.multitenancy.dashboard.ui.feature</artifactId>
+    <artifactId>org.kasung.test.am.multitenancy.dashboard.ui.feature</artifactId>
 
     <name>WSO2 API Manager - Multi Tenant Dashboard Feature</name>
     <url>http://wso2.org</url>
 
     <dependencies>
         <dependency>
-            <groupId>org.wso2.am</groupId>
-            <artifactId>org.wso2.am.multitenancy.dashboard.ui</artifactId>
+            <groupId>org.kasung.test.am</groupId>
+            <artifactId>org.kasung.test.am.multitenancy.dashboard.ui</artifactId>
         </dependency>
         <dependency>
             <groupId>org.wso2.carbon</groupId>
@@ -43,7 +43,7 @@
                             <goal>p2-feature-gen</goal>
                         </goals>
                         <configuration>
-                            <id>org.wso2.am.multitenancy.dashboard.ui</id>
+                            <id>org.kasung.test.am.multitenancy.dashboard.ui</id>
                             <propertiesFile>../etc/feature.properties</propertiesFile>
                             <adviceFile>
                                 <properties>
@@ -51,7 +51,7 @@
                                 </properties>
                             </adviceFile>
                             <bundles>
-                                <bundleDef>org.wso2.am:org.wso2.am.multitenancy.dashboard.ui</bundleDef>
+                                <bundleDef>org.kasung.test.am:org.kasung.test.am.multitenancy.dashboard.ui</bundleDef>
                                 <bundleDef>org.wso2.carbon:org.wso2.carbon.ui.menu.stratos</bundleDef>
                             </bundles>
                             <importFeatures>

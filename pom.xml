@@ -21,7 +21,7 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.kasung.test</groupId>
+    <groupId>org.kasung.test.am</groupId>
     <artifactId>am-parent</artifactId>
     <packaging>pom</packaging>
     <version>2.6.0-alpha2-SNAPSHOT</version>
@@ -53,7 +53,9 @@
         <module>modules/oauth2-grant-types</module>
         <module>modules/distribution</module>
         <module>modules/api-import-export</module>
+<!--
         <module>modules/integration</module>
+-->
     </modules>
 
     <scm>
@@ -353,8 +355,8 @@
                 <version>${carbon.commons.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
-                <artifactId>org.wso2.am.styles</artifactId>
+                <groupId>org.kasung.test.am</groupId>
+                <artifactId>org.kasung.test.am.styles</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
@@ -501,8 +503,8 @@
                 <version>${carbon.kernel.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
-                <artifactId>org.wso2.am.multitenancy.dashboard.ui</artifactId>
+                <groupId>org.kasung.test.am</groupId>
+                <artifactId>org.kasung.test.am.multitenancy.dashboard.ui</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
 
@@ -538,18 +540,18 @@
                 <version>${carbon.automationutils.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
-                <artifactId>org.wso2.am.integration.admin.clients</artifactId>
+                <groupId>org.kasung.test.am</groupId>
+                <artifactId>org.kasung.test.am.integration.admin.clients</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
-                <artifactId>org.wso2.am.integration.common.test.utils</artifactId>
+                <groupId>org.kasung.test.am</groupId>
+                <artifactId>org.kasung.test.am.integration.common.test.utils</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
-                <artifactId>org.wso2.am.integration.test.extensions</artifactId>
+                <groupId>org.kasung.test.am</groupId>
+                <artifactId>org.kasung.test.am.integration.test.extensions</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
 
@@ -818,7 +820,7 @@
             </dependency>
 
             <dependency>
-                <groupId>org.wso2.am</groupId>
+                <groupId>org.kasung.test.am</groupId>
                 <artifactId>org.wso2.stratos.apimgt.login.ui</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
@@ -928,22 +930,22 @@
                 <version>${com.googlecode.json.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
+                <groupId>org.kasung.test.am</groupId>
                 <artifactId>org.wso2.carbon.apimgt.clients.publisher.api</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
+                <groupId>org.kasung.test.am</groupId>
                 <artifactId>org.wso2.carbon.apimgt.clients.store.api</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
+                <groupId>org.kasung.test.am</groupId>
                 <artifactId>org.wso2.carbon.apimgt.clients.admin.api</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.wso2.am</groupId>
+                <groupId>org.kasung.test.am</groupId>
                 <artifactId>org.wso2.carbon.apimgt.samples.utils</artifactId>
                 <version>${apimserver.version}</version>
             </dependency>
