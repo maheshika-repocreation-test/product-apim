@@ -53,7 +53,9 @@
         <module>modules/oauth2-grant-types</module>
         <module>modules/distribution</module>
         <module>modules/api-import-export</module>
+<!--
         <module>modules/integration</module>
+-->
     </modules>
 
     <scm>
